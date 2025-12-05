@@ -1,0 +1,14 @@
+{
+  "name": "agenai-sales-agent-mvp",
+  "version": "0.1.0",
+  "description": "MVP AI Sales Agent blueprint server",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "^2.0.0"
+  }
+}
